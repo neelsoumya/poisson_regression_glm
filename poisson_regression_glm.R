@@ -82,6 +82,7 @@ summary(glm_poisson_regression)
 
 ############################
 # Perform predictions
+
 ############################
 glm_predictions <- predict(glm_poisson_regression, type = "response")
 
