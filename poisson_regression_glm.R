@@ -88,3 +88,7 @@ glm_predictions <- predict(glm_poisson_regression, type = "response")
 
 hist(glm_predictions)
 
+
+# TODO: calculated incidence rates or adjusted rate ratios (RR)
+# https://stats.idre.ucla.edu/r/dae/poisson-regression/
+
